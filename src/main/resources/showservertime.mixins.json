@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chongyu.showservertime.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftServerMixin",
+    "ServerMetadataDeseriaMixin",
+    "ServerMetadataMixin"
+  ],
+  "client": [
+    "MultiplayerServerListPingerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

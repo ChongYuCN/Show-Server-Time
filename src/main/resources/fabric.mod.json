@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "showservertime",
+  "version": "${version}",
+  "name": "ShowServerTime",
+  "description": "客户端多人游戏的服务器列表上显示各个服务器世界的时间。Display the time of each server world on the server list of client multiplayer games",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/16348/ShowServerTime"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.showservertime.ShowServerTime"
+    ]
+  },
+  "mixins": [
+    "showservertime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": ">=1.19.2"
+  }
+}
